@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.david.sqlite.InsertarP">
+
+    <TextView
+        android:id="@+id/textNombrep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="45dp"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/editNombrep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/textNombrep"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textEdadp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textNombrep"
+        android:layout_below="@+id/editNombrep"
+        android:layout_marginTop="43dp"
+        android:text="Edad" />
+
+    <EditText
+        android:id="@+id/editEdadp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editNombrep"
+        android:layout_below="@+id/editNombrep"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textCiclop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textEdadp"
+        android:layout_below="@+id/editEdadp"
+        android:layout_marginTop="47dp"
+        android:text="Ciclo" />
+
+    <EditText
+        android:id="@+id/editCiclop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editEdadp"
+        android:layout_below="@+id/editEdadp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textCursop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textCiclop"
+        android:layout_below="@+id/editCiclop"
+        android:layout_marginTop="46dp"
+        android:text="Curso" />
+
+    <EditText
+        android:id="@+id/editCursop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editCiclop"
+        android:layout_below="@+id/editCiclop"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textDespachop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textCursop"
+        android:layout_below="@+id/editCursop"
+        android:layout_marginTop="42dp"
+        android:text="Despacho" />
+
+    <EditText
+        android:id="@+id/editDespachop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editCursop"
+        android:layout_below="@+id/editCursop"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/botonAgregarp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDespachop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:text="Añadir" />
+</RelativeLayout>

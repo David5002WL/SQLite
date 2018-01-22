@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.david.sqlite.InsertarE">
+
+    <TextView
+        android:id="@+id/textNombree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="54dp"
+        android:text="Nombre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textEdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edad"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/editNombree"
+        android:layout_alignStart="@+id/textNombree" />
+
+    <TextView
+        android:id="@+id/textCicloe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Ciclo"
+        android:layout_below="@+id/editEdade"
+        android:layout_alignEnd="@+id/textEdade" />
+
+    <TextView
+        android:id="@+id/textCursoe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curso"
+        android:layout_below="@+id/editCicloe"
+        android:layout_alignStart="@+id/textCicloe"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:id="@+id/textNotaMediae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota Media"
+        android:layout_alignBaseline="@+id/editNotaMediae"
+        android:layout_alignBottom="@+id/editNotaMediae"
+        android:layout_alignStart="@+id/textEdade" />
+
+    <EditText
+        android:id="@+id/editNombree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/textNombree"
+        android:layout_alignBottom="@+id/textNombree"
+        android:layout_alignStart="@+id/editEdade" />
+
+    <EditText
+        android:id="@+id/editEdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/textEdade"
+        android:layout_alignBottom="@+id/textEdade"
+        android:layout_alignStart="@+id/editCicloe" />
+
+    <EditText
+        android:id="@+id/editCicloe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/textCicloe"
+        android:layout_alignBottom="@+id/textCicloe"
+        android:layout_alignStart="@+id/editCursoe" />
+
+    <EditText
+        android:id="@+id/editCursoe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/textCursoe"
+        android:layout_alignBottom="@+id/textCursoe"
+        android:layout_alignStart="@+id/editNotaMediae" />
+
+    <EditText
+        android:id="@+id/editNotaMediae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/editCursoe"
+        android:layout_toEndOf="@+id/textNotaMediae"
+        android:layout_marginStart="11dp" />
+
+    <Button
+        android:id="@+id/botonAgregare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editNotaMediae"
+        android:layout_below="@+id/editNotaMediae"
+        android:layout_marginTop="125dp"
+        android:text="Añadir" />
+</RelativeLayout>

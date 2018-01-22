@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.david.sqlite.Principal">
+
+    <Button
+        android:id="@+id/botonE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:text="INSERTAR ESTUDIANTE" />
+
+    <Button
+        android:id="@+id/botonP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botonE"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="INSERTAR PROFESOR" />
+
+    <Button
+        android:id="@+id/botonEliminare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botonP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:text="ELIMINAR ESTUDIANTE" />
+
+    <Button
+        android:id="@+id/botonEliminarBD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="ELIMINAR BASE DE DATOS"
+        android:layout_below="@+id/botonEliminare"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/botonConsultas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botonEliminarBD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="CONSULTAS" />
+</RelativeLayout>
